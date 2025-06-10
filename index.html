@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Système de Recherche (Liens dans HTML)</title>
+    <style>
+        body { background-image: url("https://i.postimg.cc/HkXjrTyT/popular-bg.jpg");
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #searchContainer {
+            margin-bottom: 20px;
+        }
+        #searchInput {
+            padding: 10px;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        #resultsList {
+            list-style: none;
+            padding: 0;
+        }
+        #resultsList li {
+            background-color: #f9f9f9;
+            margin-bottom: 5px;
+            padding: 10px;
+            border: 1px solid #eee;
+            border-radius: 4px;
+        }
+        #resultsList li a {
+            text-decoration: none;
+            color: #333;
+            display: block;
+        }
+        #resultsList li a:hover {
+            color: #007bff;
+        }
+        /* Classe pour masquer les éléments non correspondants */
+        .hidden {
+            display: none;
+        }
+        /* Masque la liste entière si aucun terme de recherche n'est entré ou si aucun résultat ne correspond */
+        .initial-hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Rechercher un produit</h1>
+
+    <div id="searchContainer">
+        <label for="searchInput">Rechercher :</label>
+        <input type="text" id="searchInput" placeholder="Tapez votre recherche ici...">
+    </div>
+
+    <ul id="resultsList" class="initial-hidden">
+        <li><a href="https://lestoredenono.github.io/consolexboxseriess/"> Console Xbox series s</a></li>
+        <li><a href="https://lestoredenono.github.io/consolexbxoone/">Console Xbox One</a></li>
+        <li><a href="https://lestoredenono.github.io/tekken7xbxone/">Tekken 7 xbox one</a></li>
+        <li><a href="https://lestoredenono.github.io/tastunokovscapcom/">Tatsunoko vs Capcom wii (jap)</a></li>
+        <li><a href="https://lestoredenono.github.io/talesofsymphonia2/">Tales of symphonia daw of the new world wii (usa)</a></li>
+        <li><a href="https://lestoredenono.github.io/talesofrebirth/"_blank">Tales of rebirth</a></li>
+        <li><a href="https://lestoredenono.github.io/talesofheart/">Tales of hearts nintendo ds(jap)</a></li>
+        <li><a href="https://lestoredenono.github.io/pes2008ps3/">Pro evolution soccer pes 2008 ps3</a></li>
+        <li><a href="https://lestoredenono.github.io/mortalkombatxl/">Mortal kombat XL xbox one</a></li>
+        <li><a href="https://lestoredenono.github.io/manettexboxone/">Manette xbox one</a></li>
+        <li><a href="https://lestoredenono.github.io/injustice1/">Injustice ultimate edition xbox 360</a></li>
+        <li><a href="https://lestoredenono.github.io/iamsaison5/">album Iam saison 5</a></li>
+        <li><a href="https://lestoredenono.github.io/iamoffcialmixtape/">album iam official mixtape </a></li>
+        <li><a href="https://lestoredenono.github.io/fifa15/">Fifa 15 xbox one</a></li>
+        <li><a href="https://lestoredenono.github.io/ecouteur/">Ecouteur filiaire</a></li>
+        <li><a href="https://lestoredenono.github.io/dragonballz/">Dragon ball fighter z xbox one</a></li>
+      </ul>
+ <script src="script.js"></script>
+</body>
+</html>
